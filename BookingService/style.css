@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Nunito:wght@700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 140vh;
+    font-family: 'Nunito', sans-serif;
+    background: #032838;
+  }
+
+/* home section */
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 63vh;
+    background:url(imgs/crb.png);
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+.home p{
+    border-bottom: 4px solid #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.home img{
+    height: 200px;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #4D7585;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    margin-bottom: 1167px;
+    
+}
+
+.menu {
+    display: flex;
+    margin-right: auto;
+}
+
+.head .menu a{
+    font-size: 17px;
+}
+.logo{
+    margin-left: 10px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.menu a{
+    padding: 23px 20px;
+    color: white;
+    text-decoration: none ;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover{
+    color: #000000;
+}
+
+.logo img {
+    margin-top: 5px;
+    height: 50px;
+    width: auto;
+    border-radius: 30px;
+}
+
+.buttons{
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    margin-bottom: 17px;
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 10px;
+    padding-top: 26px;
+}
+.head .buttons button{
+    
+    margin: 5px;
+}
+.buttons a{
+    font-size: 16px;
+}
+
+.sign-up{
+    text-decoration: none;
+    color: white ;
+    margin-right: 10px;
+    transition: 200ms ease-in-out;
+    
+}
+.sign-up:hover{
+    color: black;
+    
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.btn{
+    margin-top: 15px;
+    padding: 10px 10px;
+    border: 1px solid black;
+    color: white;
+    text-decoration: none;
+    background-color: #04446B;
+    border-radius: 5px ;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    transition: all 200ms ease;
+    
+}
+
+.btn:hover{
+    background-color: rgb(1, 1, 1);
+    transform: scale(1.1);
+}
+h1 {
+  margin-top: 100px;
+  border-bottom: 10px solid #04446B;
+  text-align: center;
+  width: 420px;
+  border-radius: 20px;
+  color: white;
+}
+.image-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    margin-bottom: 60px;
+   
+}
+
+.image-list img {
+    max-width: 370px;
+    height: 300px; 
+}
+
+.image-item div{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.box{
+    border: 2px solid black;
+    background: #04446B;
+    margin: 10px;
+}
+
+.rating span{
+    color: gold;
+}
+
+/* Estilo básico para la paginación */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.pagination a:hover{
+    background-color: #04446B;
+}
+  
+  /* Estilo para las flechas */
+  .pagination a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    border: 1px;
+    border-radius: 10px;
+    margin: 5px;
+    color: white;
+    border-radius: 60px;
+    background-color: #4D7585;
+  }
+  
+  /* Estilo para la flecha de "anterior" */
+  .pagination .prev {
+    margin-right: 10px;
+    font-size: 20px;
+    border: none;
+    border: 1px solid white;
+  }
+  
+  /* Estilo para la flecha de "siguiente" */
+  .pagination .next {
+    margin-left: 10px;
+    font-size: 20px;
+    border: none;
+    border: 1px solid white;
+  }
+  
+
+
+
+
+
+  
+  
+  
+ 
+  
+  
+

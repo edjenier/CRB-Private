@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Nunito:wght@700&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    background-image: url(/imgs/bkform.png);
+    font-family: 'Nunito', sans-serif;
+  }
+  
+.container {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc; /* Agregar borde alrededor del formulario */
+    border-radius:  10px; /* Añadir bordes redondeados */
+    background: #04446B;
+    color: #ccc;
+    font-family: 'Nunito', sans-serif;
+
+  }
+.container form h1{
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    border-bottom: 2px solid #ffffff;
+    border-radius: 5px;
+    color: white;
+}
+.form-group {
+  text-align: center; /* Alinear todo el contenido al centro */
+  margin: 40px;
+  width: 300px;
+}
+
+.form-group input {
+  cursor: default;
+  text-align: center;
+}
+  
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+  
+  /* Estilo para el calendario */
+.datepicker {
+  padding: 10px;
+  margin-bottom: 10px; /* Añadir espacio entre los campos de fecha */
+  border: 1px solid #df0101;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-group textarea{
+    width: 300px;
+
+}
+
+.form-group button a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 63px;
+  background: #4D7585;
+  position: fixed;
+  width: 100%;
+  font-family: 'Nunito', sans-serif;
+}
+
+.menu {
+  display: flex;
+  margin-right: auto;
+}
+
+.head .menu a{
+  font-size: 17px;
+  text-decoration: none;
+}
+.logo{
+  margin-left: 10px;
+}
+
+.logo a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.menu a{
+  padding: 23px 20px;
+  color: white;
+  text-decoration: none ;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.menu a:hover{
+  color: #000000;
+}
+
+.logo img {
+  
+  height: 50px;
+  width: auto;
+  border-radius: 30px;
+}
+
+.buttons{
+  justify-content: center;
+  align-items: center;
+  margin-top: 1px;
+  margin-bottom: 17px;
+  cursor: pointer;
+  margin-right: 10px;
+  padding: 10px;
+  padding-top: 26px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+.head .buttons button {
+  
+  margin: 5px;
+}
+
+
+
+
+.buttons button a{
+  text-decoration: none;
+
+}
+
+.buttons button a:hover{
+  color: white;
+
+  transform: scale(1.1);
+}
+
+.buttons .btn{
+  background: #04446B;
+  transition: 200ms ease-in-out;
+}
+
+.sign-up{
+  text-decoration: none;
+  color: white ;
+  margin-right: 10px;
+  transition: 200ms ease-in-out;
+  text-decoration: none !important;
+}
+
+.sign-up a{
+  text-decoration: none;
+}
+.sign-up:hover{
+  color: black;
+}
+
+.btn a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  
+}
+
+
+.buttons button{
+  margin-top: 15px;
+  padding: 10px 10px;
+  border: 1px solid black;
+  color: white;
+  text-decoration: none;
+  background-color: #04446B;
+  border-radius: 5px ;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+.btn:hover{
+  background-color: rgb(1, 1, 1);
+  transform: scale(1.1);
+}
+
